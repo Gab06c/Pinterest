@@ -1,0 +1,94 @@
+#navegador, .izquierda, .centro, .derecha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navegador {
+    list-style-type: none;
+    text-align: center;
+ }
+
+ #navegador .item {
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+ }
+
+ #navegador .home {
+     background-color: black;
+     border: 2px solid black;
+     border-radius: 25px;
+     color: white;
+     font-family: 'Lato', sans-serif;
+     font-size: 16px;
+     height: 50px;
+     padding: 15px 20px;
+     text-decoration: none;
+     width: 5%;
+ }
+
+img {
+    border-radius: 50%;
+    cursor: pointer;
+    height: 30px;
+    margin: 10px;
+    width: 30px;
+    padding: 10px;
+}
+
+.centro input {
+    background-color: rgb(235, 235, 235);
+    background-image: mdi-magnify;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 25px;
+    color: rgb(225, 225, 225);
+    font-size: 16px;
+    height: 50px;
+    padding: 0px 20px;
+    width: 75vw;
+    background-image: url('./imágenes/icons8-búsqueda-50.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+    text-indent: 30px;
+}
+
+.mdi {
+    cursor: pointer;
+    color: rgb(118, 118, 118);
+    font-size: 30px;
+    padding: 5px;
+    /* width: 40px;
+    height: 40px; */
+}
+
+.mdi:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+img:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.centro input:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+.item ul{
+    display: none;
+    list-style: none;
+    position: absolute;
+    text-align: left;
+    margin: 0px 16px 0px 0px;
+}
+
+.item:hover ul, ul:hover {
+    display: block;
+}
+
