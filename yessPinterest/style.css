@@ -47,7 +47,7 @@ img {
     height: 50px;
     padding: 0px 20px;
     width: 75vw;
-    background-image: url('./imágenes/icons8-búsqueda-50.png');
+    background-image: url('./imágenes/icons8-búsqueda-50.png');
     background-size: 20px;
     background-repeat: no-repeat;
     background-position-y: center;
@@ -80,15 +80,46 @@ img:hover {
     background-color: rgba(0, 0, 0, 0.06);
 }
 
-.item ul{
+.list-container {
+    position: relative;
+}
+
+.list-items {
     display: none;
     list-style: none;
+    padding: 0px;
     position: absolute;
+    width: 100px;
     text-align: left;
-    margin: 0px 16px 0px 0px;
+    top: 15px;
+    right: 15px;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 15px;
+    padding: 30px;
 }
 
 .item:hover ul, ul:hover {
     display: block;
+
 }
+
+  .item li {
+    margin: 10px 0px;
+  }
+  .item li a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif; 
+    font-weight: bold;   
+  }
+  .item li a:hover {
+    /*text-decoration: underline;*/
+    background-color: rgb(235, 235, 235); 
+    padding: 3px;      
+  }
+
+  .text-list {
+      font-size: 13px;
+      font-family: 'Lato', sans-serif;
+  }
 
