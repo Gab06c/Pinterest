@@ -37,6 +37,10 @@ body{
    
 }
 
+img-inicio{
+    object-fit: cover;
+}
+
 @media (min-width: 768px) {
     .contenedor{
         /* si es que hay 120rem */
@@ -73,6 +77,9 @@ p{
 }
 
 .imagen-busqueda img{
+
+    width: 570px;
+    height: 762px;
     border-top-left-radius: 2rem;
     border-bottom-left-radius: 2rem;
 }
