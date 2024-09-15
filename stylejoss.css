@@ -37,6 +37,10 @@ body{
    
 }
 
+img-inicio{
+    object-fit: cover;
+}
+
 @media (min-width: 768px) {
     .contenedor{
         /* si es que hay 120rem */
@@ -73,6 +77,9 @@ p{
 }
 
 .imagen-busqueda img{
+
+    width: 570px;
+    height: 762px;
     border-top-left-radius: 2rem;
     border-bottom-left-radius: 2rem;
 }
@@ -196,6 +203,27 @@ p{
     grid-template-columns: 1fr 1fr;
 
 }
+
+/* boton regreso */
+.inicio{
+    background-color:var(--blanco);
+    padding: 0.8rem 0.3rem 0rem 0.3rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius:50%;
+    text-align: center;
+    width: 30%; 
+    margin-left: 5rem;
+    height: 40px;
+}
+
+.Return a:hover{
+    background-color:lightgrey ;
+    border: 1px solid #d3d6e4;
+}
+
+
+
 
 .comentarios{
     display: flex;
